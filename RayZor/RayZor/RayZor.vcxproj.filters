@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{05659ed7-e53a-4dac-80dc-502a31a7e658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities">
+      <UniqueIdentifier>{958c2431-31b6-4023-8274-f5975ebf55e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RayZor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RayZor.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RayzorMain.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="direct_render.ixx">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_entity.ixx">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.ixx">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="has_assets.ixx">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_graph.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="has_children.ixx">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="render_visitor.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="is_camera.ixx">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_components.ixx">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.ixx">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="core\core_utilities.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\core_mesh.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\core_systems.ixx" />
+    <ClCompile Include="core\core_math.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl" />
+    <FxCompile Include="VertexShader.hlsl" />
+  </ItemGroup>
+</Project>
